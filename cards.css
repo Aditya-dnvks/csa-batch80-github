@@ -25,20 +25,3 @@ li {
 .card-title {
   font-size: 24px;
 }
-
-.custom-image {
-  border: 2px solid black;
-  animation: spin 3s linear 1s infinite forwards;
-}
-
-@keyframes spin {
-  0% {
-  }
-  50% {
-    scale: 2;
-    border-radius: 50%;
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
