@@ -1,0 +1,55 @@
+* {
+  font-family: "Poppins";
+}
+
+.nav-bar {
+  background-color: aqua;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ecom-heading {
+  font-size: 16px;
+}
+
+.ecom-category {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.ecom-rating,
+.ecom-price {
+  font-size: 14px;
+}
+
+.ecom-description {
+  font-size: 14px;
+}
+
+.ecom-card {
+  max-height: 750px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ecom-card > img {
+  object-fit: fill;
+  height: 350px;
+}
+
+.ecom-card > button {
+  font-size: 14px;
+  align-self: flex-end;
+  justify-content: space-between;
+}
